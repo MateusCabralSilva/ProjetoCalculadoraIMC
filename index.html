@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Projeto Calculadora de IMC</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="input-grup">
+            <h1>Tabela IMC</h1>
+                <div class="tabela">
+                    <div class="imc">
+                        <h2>IMC</h2>
+                        <p>Menos do que 18,5
+                            <br>
+                            Entre 18,5 e 24,9
+                            <br>
+                            Entre 25 e 29.9
+                            <br>
+                            Entre 30 e 34.9
+                            <br>
+                            Entre 35 e 39,9
+                            <br>
+                            Mais do que 40
+                        </p>
+                    </div>
+                    <div class="resultado">
+                        <h2>Resultado</h2>
+                        <p>Abaixo do peso
+                            <br>
+                            Peso normal
+                            <br>
+                            Sobrepeso
+                            <br>
+                            Obesidade grau 1
+                            <br>
+                            Obesidade grau 2
+                            <br>
+                            Obesidade grau
+                        </p>
+                    </div>
+                </div>
+            <form action="" id="form" method="post">
+                <h1>Calcule seu IMC</h1>
+                <label>Peso</label>
+                <input type="text" name="Peso" id="peso" placeholder="Digite seu Peso">
+
+                <label>Altura</label>
+                <input type="text" name="Altura" id="altura" placeholder="Digite sua Altura">
+
+                <button type="submit" class="btn">Calcular</button>
+
+            </form>
+            <h1>Resultado</h1>
+            <div id="resultado"></div>
+        </div>
+    </section>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
