@@ -102,4 +102,24 @@ form input {
         border-color: purple;
     }
 }
-
+@media screen and (max-width: 767px) {
+    
+    body {
+        margin-top: 0;
+    }
+    .resultado {
+        margin-left: 10px;
+    }
+    .tabela {
+        flex-direction: ;
+    }
+    .input-grup {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 444px) {
+    
+    .input-grup {
+        padding: 20px;
+    }
+}
