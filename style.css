@@ -23,6 +23,8 @@ body {
     margin: 0 auto;
     background-color: #333;
     margin-top: 30px;
+    border: 1px solid;
+    animation: rainbowBorder 10s linear infinite;
 }
 .resultado {
     margin-left: 100px;
@@ -67,3 +69,37 @@ form input {
 .btn:hover {
     background-color: rgb(132, 14, 201);
 }
+@keyframes rainbowBorder {
+    0% {
+        border-color: purple;
+    }
+
+    14% {
+        border-color: magenta;
+    }
+
+    28% {
+        border-color: #840ec9;
+    }
+
+    42% {
+        border-color: #840ec9;
+    }
+
+    57% {
+        border-color: fuchsia;
+    }
+
+    71% {
+        border-color: indigo;
+    }
+
+    85% {
+        border-color: magenta;
+    }
+
+    100% {
+        border-color: purple;
+    }
+}
+
